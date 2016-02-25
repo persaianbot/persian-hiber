@@ -5,21 +5,25 @@ URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = ""
-local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
-local BASE_FOLDER = ""
-local start = [[HI
+local bot_api_key = "191481522:AAHM-WijfRRJ1Wy3wn3ukNQ6AQOErL1cbeA"
+local BASE_URL = "https://api.telegram.org/bot"..191481522:AAHM-WijfRRJ1Wy3wn3ukNQ6AQOErL1cbeA
+local BASE_FOLDER = "hiper"
+local start = [[
+سلام 
+به ربات هایپر تیم کرول خوش اومدین در اینجا میتونید متن رو کج درشت یا کم رنگ کنید
+همچنین قابلیت تبدیل عکس به استیکر و استیکر به عکس هم وجود داره 
+
 `/bold text`
-return *bold* text
+درشت کردن متن
 
 `/italic text`
-return _italic_ text
+کج کردن متن
 
 `/link url text`
-markdown link
+لینک مخفی
 
 `/code text`
-return `code` text
+کم رنگ کردن متن
 
 
 *-channel*
@@ -46,7 +50,7 @@ _just send a sticker_
 *photo to sticker*
 _just send a photo_
 
-[Source](https://github.com/pAyDaAr/lua-api-bot) ;-)
+admin:سید محمد خشنوا
 ]] 
 
 -------
