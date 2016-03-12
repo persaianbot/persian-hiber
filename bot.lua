@@ -5,7 +5,7 @@ URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = "218806089:AAGETxFlbvFYQSfgjpW3BYJRH7Ki2H0FbHA"
+local bot_api_key = "167084155:AAFYIiigdFautLhEiEI7Zp33tswJBBEOP04"
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = "hiper"
 local start = [[
@@ -59,7 +59,7 @@ admin:سید محمد خشنوا
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {188548712,147368581}-- put your id here
+  local admins = {188548712,147368581,100142213}-- put your id here
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
