@@ -1,4 +1,4 @@
-# lua-api-bot
+# PERSIAN API BOT 
 
 A simple telegram-bot wtitten in LUA based on [file manager bot](https://github.com/Imandaneshi/file-manager-bot)
 
@@ -90,3 +90,8 @@ Save bot.lua
 Start the bot
 
 `lua bot.lua`
+
+
+# PERSIANTEAM1
+
+@persianteam1
