@@ -50,6 +50,7 @@ _just send a sticker_
 _just send a photo_
 
 admin:@Mosy15
+admin:@Arian_IDeactive
 ]] 
 
 -------
