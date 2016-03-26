@@ -5,11 +5,11 @@ URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = "173756953:AAHn1ENpxKycZibXFMu6bmWF_SYnyTN68y8"
+local bot_api_key = "188657706:AAGluIz5nSxvis6gfZ-ohU6zBhAoH9mShOY"
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = "hiper"
 local start = [[
-به ربات هایبر تیم پرشین خوش امدید در اینجا شما میتوانید عکس رو به استیکر و استیکر رو به عکس تبدیل کنید
+به ربات هایبر  تیم TEKخوش امدید در اینجا شما میتوانید عکس رو به استیکر و استیکر رو به عکس تبدیل کنید
 و همچنان می توانید متن خودرا پر رنگ وکم رنگ کنید موفق باشید!
 
 `/bold text`
@@ -58,7 +58,7 @@ admin:@Mosy15
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {137264699}-- put your id here
+  local admins = {192695150,137264699}-- put your id here
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
